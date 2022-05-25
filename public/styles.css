@@ -1,0 +1,108 @@
+header {
+  text-align: center;
+  color: azure;
+  font-style: italic;
+  font-family: "Sacramento", cursive;
+}
+body {
+  margin: 0px;
+}
+h1 {
+  font-size: 6rem;
+}
+p {
+  font-size: 1.6rem;
+}
+.search {
+  text-align: center;
+  padding: 1rem;
+}
+.input {
+  padding: 30% 0px 70% 0px;
+  background-image: url("./Image/sunset.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.sunny {
+  padding: 30% 0px 70% 0px;
+  background-image: url("./Image/sunny.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.rainy {
+  padding: 30% 0px 70% 0px;
+  background-image: url("./Image/Rainy1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.snow {
+  padding: 30% 0px 70% 0px;
+  background-image: url("./Image/cold.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.inputValue {
+  text-align: center;
+  color: #f8f8f8;
+  font-style: italic;
+  margin-right: 2%;
+  padding: 0.2 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.1);
+}
+::placeholder {
+  color: #f8f8f8;
+}
+.container {
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: saturate(180%) blur(10px);
+  border-radius: 25px;
+  color: azure;
+  display: flex;
+  width: 700px;
+  height: 700px;
+  margin: auto;
+  padding: 2rem 1rem;
+  position: relative;
+  top: 10%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.top {
+  width: 100%;
+  margin: 0 1rem;
+}
+.bottom {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  border-radius: 12rem;
+  background-color: rgba(225, 225, 225, 0.2);
+  margin-bottom: 5%;
+}
+.icons {
+  height: 5rem;
+  width: 5rem;
+  font-weight: 700;
+}
+.middle {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  border-radius: 12rem;
+  background-color: rgba(225, 225, 225, 0.2);
+  margin-bottom: 2%;
+}
+.bold {
+  font-weight: 700;
+}
+
+footer {
+  text-align: center;
+  color: azure;
+  font-style: italic;
+  font-family: "Sacramento", cursive;
+  padding: 5rem 0rem;
+}

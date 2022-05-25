@@ -1,2 +1,2 @@
-# WeatherApp2
+# weatherappReact
 Created with CodeSandbox
